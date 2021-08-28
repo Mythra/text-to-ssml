@@ -1,0 +1,14 @@
+[package]
+name = "text-to-polly-ssml"
+description = "Converts text to polly SSML. Using a bad format."
+version = "0.4.0"
+authors = ["Cynthia <cynthia@coan.dev>"]
+license = "MIT"
+homepage = "https://github.com/Mythra/text-to-polly-ssml"
+repository = "https://github.com/Mythra/text-to-polly-ssml"
+edition = "2018"
+
+[dependencies]
+color-eyre = "0.5.11"
+nom = "7.0.0"
+quick-xml = "0.22.0"
